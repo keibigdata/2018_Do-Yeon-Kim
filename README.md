@@ -13,21 +13,3 @@
 
 ## **3. 감성분류 알고리즘**
 - 다양한 기계학습 기반 분류 알고리듬 성능 평가를 통해 선정 (SVM, Naive Bayes, CNN, RNN)
-
-## ** 분석 과정 **
-
-```flow
-st=>start: Start
-e=>end
-op=>operation: My Operation
-cond=>condition: Yes or No?
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-
-> **Note:** You can find more information:
-
-> - about **Sequence diagrams** syntax [here][7],
-> - about **Flow charts** syntax [here][8].
