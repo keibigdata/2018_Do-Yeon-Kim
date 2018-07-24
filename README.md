@@ -19,9 +19,9 @@
  - 기타 전처리 알고리즘 :  
 > 1. 정규화(Normalization) 
 > 2. Document Term Matrix(DTM) 생성 
-3. 말뭉치(Corpus) 생성 
-4. Sarse Terms 삭제 
-5. Data Frame 형태로 변환
+> 3. 말뭉치(Corpus) 생성 
+> 4. Sarse Terms 삭제 
+> 5. Data Frame 형태로 변환
 
 ## 04_ 감성분류 알고리즘
 - SVM(Support Vector Machine), Naive Bayes 
