@@ -15,6 +15,7 @@
 
 ## **3. SNS 데이터 전처리 알고리즘**
 **- 이모지 한글로 변환** : 약 1,200개 이모지를 한글로 변환함
+
 **- 기타 전처리** :  1. 정규화(Normalization), 2. Document Term Matrix(DTM) 생성, 3. 말뭉치(Corpus) 생성, 
 4. Sarse Terms 삭제, 5. Data Frame 형태로 변환
 
