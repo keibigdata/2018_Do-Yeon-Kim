@@ -24,4 +24,5 @@
 5. Data Frame 형태로 변환
 
 ## 04_ 감성분류 알고리즘
-- 다양한 기계학습 기반 분류 알고리듬 성능 평가를 통해 선정 (SVM, Naive Bayes, CNN, RNN)
+- SVM(Support Vector Machine), Naive Bayes 
+- DeepLearning method : CNN(Convolution Neural Network), RNN(Recurrent Neural Network)
