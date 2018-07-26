@@ -1085,3 +1085,8 @@ for (j in seq(parsedData)) {
 
 # 이모지 한글로 변환된 데이터 확인하기
 View(parsedData)
+
+# 이모지 전처리 완료된 데이터 엑셀파일로 저장하기
+options(encoding="UTF-8")
+filePathName = paste("/Users/kei/Desktop/180725/emoji_total_0725.csv", sep="")
+write.table(parsedData, filePathName, sep=",",row.names=FALSE)
