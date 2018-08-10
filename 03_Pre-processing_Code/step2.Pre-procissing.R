@@ -48,7 +48,9 @@ dtmDf = dtmDf[,!duplicated(colnames(dtmDf))]
 dtmDf$target = target_val$senticlass
 
 #Traing Set, Test Set 만들기
-trainingSet = dtmDf[1:46000,]
-testSet = dtmDf[46001:nrow(dtmDf),]
+sample_idx <- sample(1:nrow(dtmDf), size = nrow(dtmDf)*0.6)
+length(sample_idx)
+trainingSet = dtmDf[sample_idx,]
+testSet = dtmDf[-sample_idx,]
 
 trainingSet$target = as.factor(trainingSet$target)
